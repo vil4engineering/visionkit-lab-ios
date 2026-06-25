@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A8F745E347B46A40BCAB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A14A14D93CA29FF69061E31 /* Assets.xcassets */; };
+		1BE9DE0ADBFE67C1E736C944 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412CE5955995E256370D329F /* Theme.swift */; };
+		6D6C7E23498DCCE9014492B3 /* LiveTextLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF6A947606B05ACA345A040 /* LiveTextLabView.swift */; };
+		7D6DF527FE91E540902FE7DE /* VisionLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DD23B7D5E0E52485D6E988 /* VisionLabApp.swift */; };
+		7FCAE6DDCFDB20FE396F8225 /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F1D69F770E646FC7FFD45 /* DocumentScannerView.swift */; };
+		A89EC3D3110D7A4A43E0C5D0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832AE49E4E66F6A9CBF558B /* HomeView.swift */; };
+		AAA8442A58C6385B94BFD274 /* HomeDestinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFDA19B2F0520DF5439B45 /* HomeDestinationTests.swift */; };
+		AE82E0B2FF805FF16FD23EA0 /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD02F3EC904CCA013680537B /* ImageAnalyzerService.swift */; };
+		B3322344AB9018A458FD1376 /* DataScannerLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F596E0B5A272D029DD388 /* DataScannerLabView.swift */; };
+		BA27C60C5C7A28D24A9EDB98 /* ErrorBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305312897EA7532E9A07730 /* ErrorBanner.swift */; };
+		CFBF4DB2DBA3C06BF06E2E4D /* HomeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15341F063D8EE6C8DCC048C /* HomeDestination.swift */; };
+		D66E6EFA776306E0679411B9 /* LiveTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95469BA1B65DD0FF3C08F7 /* LiveTextImageView.swift */; };
+		F3E4418A99A385D496B95A5D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E305FE006B131078939FB /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D692A5582322D2F78C9D6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FDF9C217B26BD479FB7DAD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A6A341E3037E988D8F5D35;
+			remoteInfo = VisionLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35F94C3EF502C0FFA2250D56 /* VisionLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VisionLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412CE5955995E256370D329F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		447E305FE006B131078939FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4832AE49E4E66F6A9CBF558B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A14A14D93CA29FF69061E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DA99308F5CFC3E00E2AAC91 /* VisionLabTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VisionLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8F596E0B5A272D029DD388 /* DataScannerLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerLabView.swift; sourceTree = "<group>"; };
+		8305312897EA7532E9A07730 /* ErrorBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorBanner.swift; sourceTree = "<group>"; };
+		92DD23B7D5E0E52485D6E988 /* VisionLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionLabApp.swift; sourceTree = "<group>"; };
+		9D5F1D69F770E646FC7FFD45 /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
+		AD95469BA1B65DD0FF3C08F7 /* LiveTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextImageView.swift; sourceTree = "<group>"; };
+		D15341F063D8EE6C8DCC048C /* HomeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDestination.swift; sourceTree = "<group>"; };
+		F2AFDA19B2F0520DF5439B45 /* HomeDestinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDestinationTests.swift; sourceTree = "<group>"; };
+		FD02F3EC904CCA013680537B /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalyzerService.swift; sourceTree = "<group>"; };
+		FDF6A947606B05ACA345A040 /* LiveTextLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextLabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EB6C33F2805ADB04332CFD8 /* VisionLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AFDA19B2F0520DF5439B45 /* HomeDestinationTests.swift */,
+			);
+			path = VisionLabTests;
+			sourceTree = "<group>";
+		};
+		2080DA74703F8DEC34DEA71D /* DocumentScanner */ = {
+			isa = PBXGroup;
+			children = (
+				9D5F1D69F770E646FC7FFD45 /* DocumentScannerView.swift */,
+			);
+			path = DocumentScanner;
+			sourceTree = "<group>";
+		};
+		4FB1D10081A5B264F687B933 /* LiveText */ = {
+			isa = PBXGroup;
+			children = (
+				FDF6A947606B05ACA345A040 /* LiveTextLabView.swift */,
+			);
+			path = LiveText;
+			sourceTree = "<group>";
+		};
+		5B066C183600E80470073079 = {
+			isa = PBXGroup;
+			children = (
+				D712B67E1D0D0858881F6AEC /* VisionLab */,
+				0EB6C33F2805ADB04332CFD8 /* VisionLabTests */,
+				FB7C0E2380D3548DCD8561DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		792686638669A5FBB8A83F99 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4832AE49E4E66F6A9CBF558B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		863D5D21A056F34ABA7232F6 /* DataScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F596E0B5A272D029DD388 /* DataScannerLabView.swift */,
+			);
+			path = DataScanner;
+			sourceTree = "<group>";
+		};
+		B46B2021044CDEE16851C5FF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8305312897EA7532E9A07730 /* ErrorBanner.swift */,
+				AD95469BA1B65DD0FF3C08F7 /* LiveTextImageView.swift */,
+				412CE5955995E256370D329F /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BEF757B5BA2C0D570E59B7AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A14A14D93CA29FF69061E31 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D15EF80B9E49F2DBB4D70F9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD02F3EC904CCA013680537B /* ImageAnalyzerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D712B67E1D0D0858881F6AEC /* VisionLab */ = {
+			isa = PBXGroup;
+			children = (
+				447E305FE006B131078939FB /* RootView.swift */,
+				92DD23B7D5E0E52485D6E988 /* VisionLabApp.swift */,
+				E31EC6428D2DC3FE56AC2942 /* Features */,
+				F606F1741290504B6BB70FA2 /* Models */,
+				BEF757B5BA2C0D570E59B7AF /* Resources */,
+				D15EF80B9E49F2DBB4D70F9D /* Services */,
+				B46B2021044CDEE16851C5FF /* Theme */,
+			);
+			path = VisionLab;
+			sourceTree = "<group>";
+		};
+		E31EC6428D2DC3FE56AC2942 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				863D5D21A056F34ABA7232F6 /* DataScanner */,
+				2080DA74703F8DEC34DEA71D /* DocumentScanner */,
+				792686638669A5FBB8A83F99 /* Home */,
+				4FB1D10081A5B264F687B933 /* LiveText */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F606F1741290504B6BB70FA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D15341F063D8EE6C8DCC048C /* HomeDestination.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB7C0E2380D3548DCD8561DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35F94C3EF502C0FFA2250D56 /* VisionLab.app */,
+				5DA99308F5CFC3E00E2AAC91 /* VisionLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A6A341E3037E988D8F5D35 /* VisionLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB6CA3AA07DC776ABD2CCD0 /* Build configuration list for PBXNativeTarget "VisionLab" */;
+			buildPhases = (
+				D9163EABFF85EDE535BC477E /* Sources */,
+				7C13E914AF65AB57B8FA2274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionLab;
+			packageProductDependencies = (
+			);
+			productName = VisionLab;
+			productReference = 35F94C3EF502C0FFA2250D56 /* VisionLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30B4CBC74A690F3894DF8773 /* VisionLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72007905D08738D61515AFEC /* Build configuration list for PBXNativeTarget "VisionLabTests" */;
+			buildPhases = (
+				C0B8B4D9C398140F54587C0C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F565AC6EDBAF40089614D7 /* PBXTargetDependency */,
+			);
+			name = VisionLabTests;
+			packageProductDependencies = (
+			);
+			productName = VisionLabTests;
+			productReference = 5DA99308F5CFC3E00E2AAC91 /* VisionLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FDF9C217B26BD479FB7DAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					12A6A341E3037E988D8F5D35 = {
+						DevelopmentTeam = BTHRDS7254;
+					};
+					30B4CBC74A690F3894DF8773 = {
+						DevelopmentTeam = BTHRDS7254;
+					};
+				};
+			};
+			buildConfigurationList = 2843FB910E3BD2D186914657 /* Build configuration list for PBXProject "VisionLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5B066C183600E80470073079;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB7C0E2380D3548DCD8561DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A6A341E3037E988D8F5D35 /* VisionLab */,
+				30B4CBC74A690F3894DF8773 /* VisionLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C13E914AF65AB57B8FA2274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A8F745E347B46A40BCAB48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B8B4D9C398140F54587C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA8442A58C6385B94BFD274 /* HomeDestinationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9163EABFF85EDE535BC477E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3322344AB9018A458FD1376 /* DataScannerLabView.swift in Sources */,
+				7FCAE6DDCFDB20FE396F8225 /* DocumentScannerView.swift in Sources */,
+				BA27C60C5C7A28D24A9EDB98 /* ErrorBanner.swift in Sources */,
+				CFBF4DB2DBA3C06BF06E2E4D /* HomeDestination.swift in Sources */,
+				A89EC3D3110D7A4A43E0C5D0 /* HomeView.swift in Sources */,
+				AE82E0B2FF805FF16FD23EA0 /* ImageAnalyzerService.swift in Sources */,
+				D66E6EFA776306E0679411B9 /* LiveTextImageView.swift in Sources */,
+				6D6C7E23498DCCE9014492B3 /* LiveTextLabView.swift in Sources */,
+				F3E4418A99A385D496B95A5D /* RootView.swift in Sources */,
+				1BE9DE0ADBFE67C1E736C944 /* Theme.swift in Sources */,
+				7D6DF527FE91E540902FE7DE /* VisionLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2F565AC6EDBAF40089614D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A6A341E3037E988D8F5D35 /* VisionLab */;
+			targetProxy = 7D692A5582322D2F78C9D6E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37084364AAE5497155DDD9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VisionKit Lab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used for VisionKit document and data scanning.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Saved document scans are stored in your photo library when you choose Save.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used for Live Text photos and saving scanned documents.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.visionlab;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F78223631F1D4B94A0BD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VisionKit Lab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used for VisionKit document and data scanning.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Saved document scans are stored in your photo library when you choose Save.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used for Live Text photos and saving scanned documents.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.visionlab;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58867A2F2EC42A825A564B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BTHRDS7254;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D8644F80FC4BF6B59184DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.visionlab.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionLab";
+			};
+			name = Debug;
+		};
+		D90D7903DCC4E54FA6BA55CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BTHRDS7254;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED1AE93F952F2812771D0753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.visionlab.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2843FB910E3BD2D186914657 /* Build configuration list for PBXProject "VisionLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58867A2F2EC42A825A564B61 /* Debug */,
+				D90D7903DCC4E54FA6BA55CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72007905D08738D61515AFEC /* Build configuration list for PBXNativeTarget "VisionLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D8644F80FC4BF6B59184DD /* Debug */,
+				ED1AE93F952F2812771D0753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFB6CA3AA07DC776ABD2CCD0 /* Build configuration list for PBXNativeTarget "VisionLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37084364AAE5497155DDD9EA /* Debug */,
+				48F78223631F1D4B94A0BD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FDF9C217B26BD479FB7DAD0 /* Project object */;
+}
